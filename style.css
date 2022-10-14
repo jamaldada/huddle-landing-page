@@ -1,0 +1,261 @@
+@import(https://fonts.google.com/specimen/Poppins);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    max-width: 1440px;
+    position: relative;
+}
+
+.header{
+    background-image: url(bg-hero-desktop.svg);
+   background-color: hsl(193, 100%, 96%);
+   background-repeat: no-repeat;
+   padding: 2rem;
+}
+
+.headerone{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: -10px;
+}
+
+.headertwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.nowrap{
+    white-space: nowrap;
+}
+.texto{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.try{
+    width: 120px;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    color: black;
+}
+.btnpink{
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: translate(4rem , -4rem); */
+    padding: 0.5rem;
+    border-radius:1rem ;
+    
+  
+}
+
+.cardo{
+width: 1250px;
+border: 1px white solid;
+margin: 0px auto;
+margin-bottom: 1rem;
+border-radius: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+background-color: white;
+box-shadow: 2px 3px 10px hsl(273deg, 18%, 24%);
+}
+
+.card{
+    margin-top: 4rem;
+}
+h4{
+    margin-bottom: 1rem;
+}
+.enquire{
+    width: 350px;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 10px hsl(273deg, 18%, 24%);
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 1.3rem;
+    border: none;
+    transform: translateY(2rem);
+}
+.btnbuild{
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.btnbuild:hover{
+    opacity: 0.5;
+}
+
+.btnpink:hover{
+    opacity: 0.5;
+}
+
+.footer{
+    background-color:  hsl(192, 100%, 9%);
+    color: white;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.corn{
+    color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+
+.locate{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 500px;
+}
+
+.loc{
+margin-bottom: 1rem;
+}
+
+.know, .knowtwo{
+   display: flex;
+   flex-direction: column;
+}
+.know{
+    margin-left: 35rem;
+    margin-top: -9rem;
+}
+
+.knowtwo{
+    margin-left: 47rem;
+
+    margin-top: -3.5rem;
+}
+.copy{
+    text-align: end;
+    margin-top: 6rem;
+    margin-right: 1rem;
+}
+.socials{
+    margin-left: 55rem;
+
+    margin-top: -3.5rem;
+}
+.huddles{
+    margin: 3rem;
+}
+.corn:hover{
+    color: hsl(322, 100%, 66%);
+}
+
+@media screen and (max-width:500px) {
+    body{
+        width: 100%;
+    }
+
+    .header{
+        background-image: url(bg-hero-mobile.svg);
+       
+    }
+    .headertwo{
+        flex-direction: column;
+    }
+ .texto{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+ }
+ .huddle{
+    font-size: 12px;
+ }
+ .cardo{
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+ }
+ .a, .c{
+    flex-direction: column-reverse;
+ }
+ .text{
+    width: 70%;
+ }
+.nowrap{
+    white-space: nowrap;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.know{
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
+
+.knowtwo{
+    margin-left: 0rem;
+
+    margin-top: 0rem;
+}
+.copy{
+    text-align: end;
+    margin-top: 6rem;
+    margin-right: 1rem;
+}
+.socials{
+    margin-left: 0rem;
+
+    margin-top: 0rem;
+}
+.locate{
+    width: 200px;
+}
+.know, .knowtwo{
+    margin-left: 2rem;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.copy{
+    margin-top: 1rem;
+}
+
+}
